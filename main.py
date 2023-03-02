@@ -21,7 +21,7 @@ def get_data():
             return "Wrong method"
     except: 
         print(traceback.print_exc())
-        return "Unsuccessful"
+        return "Unsuccessful report"
 
 if __name__ == "__main__":
     app.run(host = '0.0.0.0', port=6000, debug =True)
